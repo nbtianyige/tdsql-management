@@ -6,11 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -32,8 +29,8 @@ jobs:
           cd frontend
           npm run build
       
-      - name: Install EdgeOne CLI
-        run: npm install -g edgeone
-      
-      - name: Deploy full project to EdgeOne Pages
-        run: edgeone pages deploy -n tdsql-management -t ${{ secrets.edgeone_token }}
+      - name: Upload to EdgeOne
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: frontend/dist
