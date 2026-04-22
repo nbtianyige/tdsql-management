@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "source_instance_id": 1,
+    "target_instance_id": 3,
+    "source_instance_name": "蜀国",
+    "target_instance_name": "魏国",
+    "databases": [
+      2,
+      3
+    ],
+    "users": [
+      1
+    ],
+    "migrated_dbs": [
+      "刘备",
+      "张飞"
+    ],
+    "migrated_users": [
+      "关羽"
+    ],
+    "status": "completed",
+    "completed_at": "2026-02-23 00:31:30",
+    "operator": "admin",
+    "created_at": "2026-02-23 00:31:30"
+  },
+  {
+    "id": 2,
+    "source_instance_id": 1,
+    "target_instance_id": 3,
+    "source_instance_name": "蜀国",
+    "target_instance_name": "魏国",
+    "databases": [
+      2,
+      3
+    ],
+    "users": [],
+    "migrated_dbs": [
+      "刘备",
+      "张飞"
+    ],
+    "migrated_users": [],
+    "status": "completed",
+    "completed_at": "2026-02-23 00:33:16",
+    "operator": "admin",
+    "created_at": "2026-02-23 00:33:16"
+  },
+  {
+    "id": 3,
+    "source_instance_id": 2,
+    "target_instance_id": 5,
+    "source_instance_name": "三打白骨精",
+    "target_instance_name": "灵隐寺",
+    "databases": [
+      5
+    ],
+    "users": [
+      2
+    ],
+    "migrated_dbs": [
+      "沙僧"
+    ],
+    "migrated_users": [
+      "孙悟空"
+    ],
+    "status": "completed",
+    "completed_at": "2026-02-24 19:42:31",
+    "operator": "admin",
+    "created_at": "2026-02-24 19:42:31"
+  },
+  {
+    "id": 4,
+    "source_instance_id": 2,
+    "target_instance_id": 5,
+    "source_instance_name": "三打白骨精",
+    "target_instance_name": "灵隐寺",
+    "databases": [
+      5
+    ],
+    "users": [
+      2
+    ],
+    "migrated_dbs": [
+      "沙僧"
+    ],
+    "migrated_users": [
+      "孙悟空"
+    ],
+    "status": "completed",
+    "completed_at": "2026-02-24 19:43:00",
+    "operator": "admin",
+    "created_at": "2026-02-24 19:43:00"
+  },
+  {
+    "id": 5,
+    "source_instance_id": 1,
+    "target_instance_id": 2,
+    "source_instance_name": "蜀国",
+    "target_instance_name": "三打白骨精",
+    "databases": [
+      2,
+      3
+    ],
+    "users": [
+      5
+    ],
+    "migrated_dbs": [
+      "刘备",
+      "张飞"
+    ],
+    "migrated_users": [
+      "孙尚香"
+    ],
+    "status": "completed",
+    "completed_at": "2026-02-24 19:53:26",
+    "operator": "admin",
+    "created_at": "2026-02-24 19:53:26"
+  }
+]

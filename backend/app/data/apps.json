@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "订单系统",
+    "domain": "order.example.com",
+    "developer": "EMP003",
+    "operator": "EMP002",
+    "description": "负责订单处理"
+  },
+  {
+    "id": 2,
+    "name": "用户中心",
+    "domain": "user.example.com",
+    "developer": "EMP005",
+    "operator": "EMP002",
+    "description": "用户账号管理"
+  },
+  {
+    "id": 3,
+    "name": "支付系统",
+    "domain": "pay.example.com",
+    "developer": "EMP001",
+    "operator": "EMP004",
+    "description": "支付网关"
+  },
+  {
+    "id": 4,
+    "name": "千问",
+    "domain": "qwen.com.cn",
+    "developer": "EMP001",
+    "operator": "EMP004",
+    "description": ""
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 5,
+    "action": "迁移",
+    "target_type": "实例",
+    "target_name": "蜀国 -> 三打白骨精",
+    "details": {
+      "databases": [
+        "刘备",
+        "张飞"
+      ],
+      "users": [
+        "孙尚香"
+      ]
+    },
+    "operator": "admin",
+    "created_at": "2026-02-24 19:53:26"
+  },
+  {
+    "id": 4,
+    "action": "迁移",
+    "target_type": "实例",
+    "target_name": "三打白骨精 -> 灵隐寺",
+    "details": {
+      "databases": [
+        "沙僧"
+      ],
+      "users": [
+        "孙悟空"
+      ]
+    },
+    "operator": "admin",
+    "created_at": "2026-02-24 19:43:00"
+  },
+  {
+    "id": 3,
+    "action": "迁移",
+    "target_type": "实例",
+    "target_name": "三打白骨精 -> 灵隐寺",
+    "details": {
+      "databases": [
+        "沙僧"
+      ],
+      "users": [
+        "孙悟空"
+      ]
+    },
+    "operator": "admin",
+    "created_at": "2026-02-24 19:42:31"
+  },
+  {
+    "id": 2,
+    "action": "迁移",
+    "target_type": "实例",
+    "target_name": "蜀国 -> 魏国",
+    "details": {
+      "databases": [
+        "刘备",
+        "张飞"
+      ],
+      "users": []
+    },
+    "operator": "admin",
+    "created_at": "2026-02-23 00:33:16"
+  },
+  {
+    "id": 1,
+    "action": "迁移",
+    "target_type": "实例",
+    "target_name": "蜀国 -> 魏国",
+    "details": {
+      "databases": [
+        "刘备",
+        "张飞"
+      ],
+      "users": [
+        "关羽"
+      ]
+    },
+    "operator": "admin",
+    "created_at": "2026-02-23 00:31:30"
+  }
+]

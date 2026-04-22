@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "username": "关羽",
+    "password": "1234",
+    "instance_id": 3,
+    "app_id": 1,
+    "permissions": [
+      {
+        "database_id": 2,
+        "privileges": [
+          "ALL"
+        ]
+      },
+      {
+        "database_id": 3,
+        "privileges": [
+          "ALL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "张飞",
+    "password": "1234",
+    "instance_id": 3,
+    "app_id": 4,
+    "permissions": [
+      {
+        "database_id": 1,
+        "privileges": [
+          "SELECT",
+          "INSERT"
+        ]
+      }
+    ]
+  }
+]
