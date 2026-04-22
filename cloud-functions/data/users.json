@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "$2b$12$z6YVPtHN8f8sFu6K1Xco4.iQ8m1fgEZPjN65gVIV2EqPmr.FaZrEa",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "username": "user",
+    "password": "$2b$12$oD2kk7pK2h1isZ8eEG1kSuJE1VFYzjz9umtucy3XWw5hIBa06Xkv6",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "username": "ops",
+    "password": "$2b$12$whQ4fVob1L8roewkSQVWEOmU0SJpyPyVJA2OFG3s9HW.A/QYl1qD6",
+    "role": "operator",
+    "created_at": "2026-02-24"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "开发",
+    "code": "GROUP001",
+    "type": "group"
+  },
+  {
+    "id": 2,
+    "name": "维护",
+    "code": "GROUP002",
+    "type": "group"
+  }
+]

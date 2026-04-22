@@ -39,3 +39,6 @@ coverage/
 # Misc
 *.bak
 *.tmp
+
+# EdgeOne (可选，不提交到 Git)
+.edgeone/

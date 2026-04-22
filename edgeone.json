@@ -1,0 +1,19 @@
+{
+  "name": "tdsql-management",
+  "framework": "static",
+  "build": {
+    "command": "cd frontend && npm install && npm run build",
+    "output": "frontend/dist"
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "status": 200,
+      "dest": "/api/index.py"
+    }
+  ],
+  "cloudFunctions": {
+    "runtime": "python3.10",
+    "installDependency": true
+  }
+}

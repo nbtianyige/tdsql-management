@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "蜀国",
+    "cluster_id": 3,
+    "internal_port": "4001",
+    "external_port": "15001",
+    "description": "四川",
+    "status": "unused"
+  },
+  {
+    "id": 2,
+    "name": "三打白骨精",
+    "cluster_id": 4,
+    "internal_port": "4002",
+    "external_port": "15003",
+    "description": "打死了",
+    "status": "online"
+  },
+  {
+    "id": 3,
+    "name": "魏国",
+    "cluster_id": 3,
+    "internal_port": 3306,
+    "external_port": 3306,
+    "description": "曹丞相",
+    "status": "online"
+  },
+  {
+    "id": 4,
+    "name": "吴国",
+    "cluster_id": 3,
+    "internal_port": 3306,
+    "external_port": 3306,
+    "description": "",
+    "status": "unused"
+  },
+  {
+    "id": 5,
+    "name": "灵隐寺",
+    "cluster_id": 4,
+    "internal_port": 3306,
+    "external_port": 3306,
+    "description": "",
+    "status": "online"
+  }
+]
